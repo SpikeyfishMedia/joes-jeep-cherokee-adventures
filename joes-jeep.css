@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document 
+SpikeyfishMedia Copyright 2014*/
+
+div#primary {
+width:980px;
+}
+
+div.showcaseGallery {
+border-color: #000000;
+border-style: none;
+border-width: 0px;
+margin: 0 auto;
+width: 980px;
+}
+
+div.showcaseGallery div.player {
+background: url("") no-repeat scroll left top #000000;
+padding: 0px;
+height: 455px;
+ }
+
+div.showcaseGallery div.player div[id^="kalturaVideoPlayer_"] {
+border: 8px solid #FFFFFF;
+box-shadow: 0 0 1em #000000;
+height: 390px;
+width: 640px;
+position: absolute;
+margin: 25px 0px 0px 162px;
+}
+
+div.showcaseGallery div.player div[id^="kalturaVideoPlayer_"] object[id^="kaltura_dynamic_player_"] {
+height: 390px;
+width: 640px;
+}
+
+div.showcaseScrollable {
+background: none repeat scroll 0 0 #FFFFFF;
+margin-bottom: 15px;
+padding: 20px 0;
+}
+
+div.showcaseScrollable div.slide {
+width: 25% !important;
+}
+
+div.showcaseScrollable img {
+border-style: none;
+border-width: 0px;
+-moz-box-shadow: 0 0 .5em #000000;
+-webkit-box-shadow: 0 0 .5em #000000;
+box-shadow: 0 0 .5em #000000;
+}
+
+div#bottomWide div.carousel {
+width: 980px;
+overflow: inherit;
+}
+
+div#bottomWide div#carousel24201260 div.titlebar {
+background: #333300;
+}
+
+div#bottomWide div#carousel24201260 div.navi.top_nav a.active{
+background: url('http://www.clickorlando.com/image/view/-/24203990/highRes/22234965/-/maxw/640/-/oqafwa/-/Slider-Button-png.png');
+}
+
+div#bottomWide section.ib-container-item.last.item-2 {
+margin: 10px 0px 20px 120px;
+width: 728px;
+}
+
+.kWidgetIframeContainer {
+height: 390px;
+width: 640px;
+}
